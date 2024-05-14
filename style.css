@@ -1,0 +1,43 @@
+* {
+    font-family: "Dancing Script", sans-serif;
+}
+
+body {
+    background-color: #e3f6f5;
+}
+
+#congrats-animation, #english-books, #meme, #tien-bip {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h3 {
+    font-size: 24px;
+}
+
+button {
+    background-color: #ffd803;
+    padding: 10px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #272343;
+    font-weight: 500;
+}
+
+button:hover {
+    background-color: #f0e396;
+}
+
+button.get-present {
+    margin-top: 10px;
+    border: none;
+}
+
+#english-books, #meme, #tien-bip {
+    display: none;
+}
+  
